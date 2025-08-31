@@ -76,10 +76,14 @@ nav ul li a:hover, nav ul li a.active {
 /* Hero Section with Particles */
 #hero {
     text-align: center;
-    padding: 20px;
+    padding-top: 40px; /* Reduced top padding */
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
     color: white;
     position: relative;
-    height: 100vh;
+    height: 100vh; /* Full viewport height */
+    box-sizing: border-box; /* Include padding in height calculation */
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -100,13 +104,9 @@ nav ul li a:hover, nav ul li a.active {
     z-index: 2;
     max-width: 800px;
     margin: 0 auto;
-}
-
-.hero-content {
-    max-width: 800px;
     text-align: center;
     background: transparent; /* Make background see-through */
-    padding: 40px;
+    padding: 20px; /* Keep some padding for content */
     border-radius: 15px;
     /* Remove card-like appearance */
     box-shadow: none;
@@ -118,12 +118,14 @@ nav ul li a:hover, nav ul li a.active {
     font-size: 4em;
     font-weight: 700;
     text-shadow: 2px 2px 15px rgba(0,0,0,0.5); /* Add shadow for readability */
-    margin-bottom: 20px;
+    margin-bottom: 15px; /* Reduce bottom margin */
+    margin-top: 0; /* Remove any top margin */
 }
 
 #hero p {
     font-size: 1.4em;
-    margin-bottom: 40px;
+    margin-bottom: 30px; /* Reduce bottom margin */
+    margin-top: 0; /* Remove any top margin */
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
@@ -533,7 +535,7 @@ footer {
     }
     
     .home-page main {
-        padding-top: 135px; /* Adjust for taller header on mobile */
+        padding-top: 0; /* Remove top padding for home page */
         width: 100%;
         max-width: 100vw;
     }
@@ -543,12 +545,28 @@ footer {
         width: 100%;
         max-width: 100vw;
     }
+    
+    #hero {
+        height: 100vh; /* Full viewport height on mobile too */
+        padding-top: 60px; /* Reduced padding for mobile */
+        padding-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+        box-sizing: border-box; /* Include padding in height calculation */
+    }
+    
+    .hero-content {
+        padding: 20px 15px; /* Some padding for mobile readability */
+    }
+    
     #hero h1 {
         font-size: 2.5em;
+        margin-bottom: 15px; /* Reduce margin between title and subtitle */
     }
     
     #hero p {
         font-size: 1.1em;
+        margin-bottom: 25px; /* Reduce margin before button */
     }
     
     .card-grid {
