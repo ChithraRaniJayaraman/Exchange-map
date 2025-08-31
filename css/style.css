@@ -76,18 +76,12 @@ nav ul li a:hover, nav ul li a.active {
 /* Hero Section with Particles */
 #hero {
     text-align: center;
-    padding-top: 40px; /* Reduced top padding */
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0; /* Remove all padding */
     color: white;
     position: relative;
     height: 100vh; /* Full viewport height */
-    box-sizing: border-box; /* Include padding in height calculation */
+    box-sizing: border-box;
     overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 #particles-js {
@@ -100,15 +94,17 @@ nav ul li a:hover, nav ul li a.active {
 }
 
 .hero-content {
-    position: relative;
+    position: absolute;
+    top: 60px; /* Reduced positioning from top of hero section */
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
     z-index: 2;
     max-width: 800px;
-    margin: 0 auto;
+    width: 90%; /* Responsive width */
     text-align: center;
-    background: transparent; /* Make background see-through */
-    padding: 20px; /* Keep some padding for content */
+    background: transparent;
+    padding: 20px;
     border-radius: 15px;
-    /* Remove card-like appearance */
     box-shadow: none;
     backdrop-filter: none;
     border: none;
@@ -548,15 +544,14 @@ footer {
     
     #hero {
         height: 100vh; /* Full viewport height on mobile too */
-        padding-top: 60px; /* Reduced padding for mobile */
-        padding-bottom: 0;
-        padding-left: 0;
-        padding-right: 0;
-        box-sizing: border-box; /* Include padding in height calculation */
+        padding: 0; /* Remove all padding on mobile */
+        display: block !important;
     }
     
     .hero-content {
-        padding: 20px 15px; /* Some padding for mobile readability */
+        top: 120px; /* Position below mobile header */
+        width: 95%; /* More width on mobile */
+        padding: 15px; /* Add some padding back for readability */
     }
     
     #hero h1 {
