@@ -489,6 +489,28 @@ footer {
 }
 
 @media (max-width: 768px) {
+    header {
+        padding: 15px 20px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        margin-top: 15px;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+    
+    main:not(.map-page-main) {
+        padding-top: 135px; /* Adjust for taller header on mobile */
+    }
+
     .map-page main {
         padding-top: 135px; /* Adjust for taller header on mobile */
     }
