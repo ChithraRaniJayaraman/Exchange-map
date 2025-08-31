@@ -1,0 +1,240 @@
+{
+    "IN": {
+        "title": "India — Erasmus at a glance",
+        "bullets": [
+            "Language of study: English widely used",
+            "Classroom vibe: Sir/Ma’am; attendance often counts",
+            "Budget: meals €2–3; daily €6–7 (food + local travel)",
+            "Everyday: bottled/filtered water; metro/rickshaw for short hops",
+            "Drill-down: click Kolkata pin for IIM Calcutta"
+        ],
+        "cities": [
+            {
+                "name": "Kolkata",
+                "lat": 22.5726,
+                "lon": 88.3639,
+                "cardTitle": "Kolkata — IIM Calcutta (IIMC)",
+                "cardBullets": [
+                    "Campus: residential; strong peer networks; case-based learning",
+                    "Courses/credits: management focus (confirm ECTS with FEB)",
+                    "Assessment: relative grading; participation matters",
+                    "Student life: hostels, mess dining, fests; metro/bus access",
+                    "First steps: arrive early; orientation + buddy"
+                ]
+            }
+        ],
+        "extras": {
+            "directIndirect": [
+                {
+                    "direct": "This section isn’t clear. Please rewrite the analysis.",
+                    "indirect": "Maybe we can refine this part a bit?",
+                    "note": "Use in workshop to illustrate feedback styles."
+                }
+            ]
+        }
+    },
+    "BE": {
+        "title": "Belgium — Home baseline",
+        "bullets": [
+            "Languages: Dutch/French/German (region matters)",
+            "Feedback: more direct, structured expectations",
+            "Everyday: safe tap water, reliable trains",
+            "Classroom: open debate; first-name basis comes earlier",
+            "Use as comparison baseline"
+        ],
+        "cities": [
+      {
+        "name": "Brussels",
+        "lat": 50.8503,
+        "lon": 4.3517,
+        "cardTitle": "Brussels — The Heart of Europe",
+        "cardBullets": [
+          "Campus: Home to multiple universities like KU Leuven Brussels Campus and ULB.",
+          "Courses/credits: Strong focus on international relations, politics, and business.",
+          "Student life: A multicultural hub with a vibrant nightlife and countless events.",
+          "First steps: Explore the Grand-Place, and don't forget to try the waffles and fries."
+        ]
+      }
+    ]
+    },
+    "CN": {
+        "title": "China — Erasmus snapshot",
+        "bullets": [
+            "Language of study: Mandarin is official, but many universities offer courses in English.",
+            "Classroom vibe: Generally formal, with high respect for professors.",
+            "Budget: Very affordable. A meal can be as cheap as €2–€4.",
+            "Everyday: Mobile payments (WeChat Pay/Alipay) are ubiquitous. Public transport is modern and efficient.",
+            "Drill-down: Explore major cities like Beijing and Shanghai."
+        ],
+        "cities": [
+            {
+                "name": "Beijing",
+                "lat": 39.9042,
+                "lon": 116.4074,
+                "cardTitle": "Beijing — Peking University",
+                "cardBullets": [
+                    "Campus: Historic campus known as 'Yan Yuan' (the garden of Yan).",
+                    "Courses/credits: Wide range of subjects, strong in humanities and sciences.",
+                    "Student life: Vibrant international student community.",
+                    "First steps: Get a VPN before arriving to access international websites."
+                ]
+            },
+            {
+                "name": "Shanghai",
+                "lat": 31.2304,
+                "lon": 121.4737,
+                "cardTitle": "Shanghai — Fudan University",
+                "cardBullets": [
+                    "Campus: Located in a bustling metropolis, offering a dynamic city experience.",
+                    "Courses/credits: Strong in business, medicine, and international relations.",
+                    "Student life: Explore the mix of modern and traditional culture.",
+                    "First steps: Learn some basic Mandarin phrases to help with daily life."
+                ]
+            }
+        ]
+    },
+    "CA": {
+        "title": "Canada — Erasmus snapshot",
+        "bullets": [
+            "Language of study: English and French (primarily in Quebec).",
+            "Classroom vibe: Collaborative and interactive, encourages student participation.",
+            "Budget: Higher than in Europe. Expect daily costs of €20–€30.",
+            "Everyday: Very multicultural. Tipping is customary (15-20%).",
+            "Drill-down: Check out universities in Toronto and Vancouver."
+        ],
+        "cities": [
+            {
+                "name": "Toronto",
+                "lat": 43.6532,
+                "lon": -79.3832,
+                "cardTitle": "Toronto — University of Toronto",
+                "cardBullets": [
+                    "Campus: Downtown campus integrated with the city.",
+                    "Courses/credits: Top-ranked university with a vast array of courses.",
+                    "Student life: Diverse city with a great food and arts scene.",
+                    "First steps: Get a PRESTO card for public transit."
+                ]
+            },
+            {
+                "name": "Vancouver",
+                "lat": 49.2827,
+                "lon": -123.1207,
+                "cardTitle": "Vancouver — University of British Columbia (UBC)",
+                "cardBullets": [
+                    "Campus: Stunning campus with ocean and mountain views.",
+                    "Courses/credits: Known for research and sustainability programs.",
+                    "Student life: Outdoor activities are a huge part of the culture.",
+                    "First steps: Pack for rainy weather, but enjoy the beautiful nature."
+                ]
+            }
+        ]
+    },
+    "AU": {
+        "title": "Australia — Erasmus snapshot",
+        "bullets": [
+            "Language of study: English.",
+            "Classroom vibe: Relaxed and informal. First names are common for lecturers.",
+            "Budget: Can be expensive. A simple lunch might be €10–€15.",
+            "Everyday: Laid-back lifestyle, strong coffee culture.",
+            "Drill-down: Explore the vibrant cities of Sydney and Melbourne."
+        ],
+        "cities": [
+            {
+                "name": "Sydney",
+                "lat": -33.8688,
+                "lon": 151.2093,
+                "cardTitle": "Sydney — University of Sydney",
+                "cardBullets": [
+                    "Campus: Famous for its neo-gothic sandstone buildings.",
+                    "Courses/credits: Comprehensive university with a strong international reputation.",
+                    "Student life: Beaches, nightlife, and a bustling city center.",
+                    "First steps: Get an Opal card for easy travel on public transport."
+                ]
+            },
+            {
+                "name": "Melbourne",
+                "lat": -37.8136,
+                "lon": 144.9631,
+                "cardTitle": "Melbourne — University of Melbourne",
+                "cardBullets": [
+                    "Campus: A mix of historic and modern architecture, located near the city center.",
+                    "Courses/credits: Particularly strong in arts, humanities, and medicine.",
+                    "Student life: Known for its laneway cafes, street art, and live music scene.",
+                    "First steps: Explore the city's unique neighborhoods by tram."
+                ]
+            }
+        ]
+    },
+    "HR": {
+        "title": "Croatia — Erasmus snapshot",
+        "bullets": [
+            "Language of study: Croatian, but English-taught programs are common.",
+            "Classroom vibe: Generally relaxed, but attendance can be important.",
+            "Budget: More affordable than Western Europe. Daily budget around €15–€20.",
+            "Everyday: Cafe culture is central. People enjoy long coffee breaks.",
+            "Drill-down: Discover the capital Zagreb and the coastal city of Split."
+        ],
+        "cities": [
+            {
+                "name": "Zagreb",
+                "lat": 45.8150,
+                "lon": 15.9819,
+                "cardTitle": "Zagreb — University of Zagreb",
+                "cardBullets": [
+                    "Campus: Spread throughout the city, not a single enclosed campus.",
+                    "Courses/credits: The oldest and largest university in South-Eastern Europe.",
+                    "Student life: A lively city with a rich history, museums, and parks.",
+                    "First steps: Enjoy the local markets and the vibrant downtown area."
+                ]
+            },
+            {
+                "name": "Split",
+                "lat": 43.5081,
+                "lon": 16.4402,
+                "cardTitle": "Split — University of Split",
+                "cardBullets": [
+                    "Campus: Modern facilities, with some faculties offering stunning sea views.",
+                    "Courses/credits: Strong in marine sciences, engineering, and humanities.",
+                    "Student life: Based in a historic Roman palace, with easy access to islands.",
+                    "First steps: Explore Diocletian's Palace and enjoy the Adriatic coastline."
+                ]
+            }
+        ]
+    },
+    "FR": {
+        "title": "France — Erasmus snapshot",
+        "bullets": [
+            "Language of study: French is dominant, but many business schools offer English tracks.",
+            "Classroom vibe: Can be hierarchical, with an emphasis on theory and structured lectures.",
+            "Budget: Varies by city. Paris is expensive; other cities are more moderate.",
+            "Everyday: Bureaucracy can be challenging. A good meal is an important part of the day.",
+            "Drill-down: Experience life in Paris or the culinary capital, Lyon."
+        ],
+        "cities": [
+            {
+                "name": "Paris",
+                "lat": 48.8566,
+                "lon": 2.3522,
+                "cardTitle": "Paris — Sorbonne University",
+                "cardBullets": [
+                    "Campus: Historic and prestigious, located in the heart of the Latin Quarter.",
+                    "Courses/credits: World-renowned for arts, humanities, and sciences.",
+                    "Student life: Endless museums, galleries, and cultural events.",
+                    "First steps: Get a Navigo pass for the metro and be prepared for a fast-paced life."
+                ]
+            },
+            {
+                "name": "Lyon",
+                "lat": 45.7640,
+                "lon": 4.8357,
+                "cardTitle": "Lyon — University of Lyon",
+                "cardBullets": [
+                    "Campus: A major hub for higher education with several distinct universities.",
+                    "Courses/credits: Strong in social sciences, technology, and gastronomy.",
+                    "Student life: Considered France's food capital, with a vibrant and manageable city feel.",
+                    "First steps: Try the local 'bouchons' (traditional restaurants)."
+                ]
+            }
+        ]
+    }
+}

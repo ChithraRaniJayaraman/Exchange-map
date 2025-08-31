@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crossing Cultures - Erasmus+ Student Adventures</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">ErasumusMap</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="map.html">Maps</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <div id="particles-js"></div>
+            <div class="hero-content">
+                <h1 class="animate__animated animate__bounceInDown">“Crossing Cultures”</h1>
+                <p class="animate__animated animate__fadeInUp animate__delay-1s">See the world through the eyes of students. Your global adventure awaits!</p>
+                <a href="map.html" class="cta-button animate__animated animate__pulse animate__infinite">Get Started</a>
+            </div>
+        </section>
+        <section id="adventure" data-aos="fade-up">
+            <h2>Your Next Adventure</h2>
+            <p>Connect with students worldwide and find your perfect Erasmus destination.</p>
+        </section>
+        <section id="voices" data-aos="fade-up">
+            <h3>Voices</h3>
+            <div class="card-grid">
+                <div class="testimonial-card" data-aos="fade-right" data-aos-delay="100">
+                    <p>"Studying abroad at Queen’s University in Canada was truly unforgettable. The small, interactive classes and new academic system gave me fresh perspectives, while the friendly Canadian culture and amazing travel opportunities made every moment special. Joining intramural sports like ultimate frisbee enriched not only my social life but also my cultural experience."</p>
+                    <h5>CEDRIC</h5>
+                </div>
+                <div class="testimonial-card" data-aos="fade-left" data-aos-delay="200">
+                    <p>"My exchange in China was an unforgettable journey. The university offered a lively campus life and was only an hour from Hong Kong, making travel easy and exciting. With great support for international students — from housing to residence permits — I felt guided every step of the way."</p>
+                    <h5>Aisha Khan</h5>
+                </div>
+            </div>
+        </section>
+        <section id="global-updates" data-aos="fade-up">
+            <h2>Global Updates</h2>
+            <div class="card-grid">
+                <div class="update-card" data-aos="zoom-in" data-aos-delay="100">
+                    <h5>BANGALORE</h5>
+                    <p>IBM Research–India lab here focuses on hybrid cloud, AI, climate/sustainability and quantum computing. Bangalore is also home to IBM’s Infrastructure Development Lab (ISDL), which works on Power systems, mainframes (IBM Z), storage and cloud platforms. In addition, IBM’s consulting, software services and Cloud/Watson teams have large development centers in the city.</p>
+                </div>
+                <div class="update-card" data-aos="zoom-in" data-aos-delay="200">
+                    <h5>KOLKATA</h5>
+                    <p>Kolkata is a major IBM delivery and services hub. Historically it has been IBM’s second-largest India workforce after Bangalore. The Kolkata center focuses on application and infrastructure services (e.g. SAP, mainframes, web/app development) and consulting.</p>
+                </div>
+                <div class="update-card" data-aos="zoom-in" data-aos-delay="300">
+                    <h5>DELHI</h5>
+                    <p>The Delhi/NCR facilities focus on IBM’s services and research. The Gurgaon research lab works on many of the same domains as Bengaluru (AI, hybrid cloud, quantum). IBM also has sales, consulting and software services teams based in Delhi (for government and enterprise accounts).</p>
+                </div>
+            </div>
+        </section>
+        <section id="faq" data-aos="fade-up">
+            <h2>Your Erasmus Questions Answered!</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h6>What is Erasmus?</h6>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Erasmus+ is the EU's programme to support education, training, youth and sport in Europe. It has an estimated budget of €26.2 billion and provides opportunities for over 4 million participants to study, train, gain experience, and volunteer abroad.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h6>How to apply for Erasmus?</h6>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You apply through your home university's international or Erasmus+ office. The application process usually involves submitting an application form, a letter of motivation, and your academic transcripts. Check with your university for specific deadlines and requirements.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h6>What are the benefits?</h6>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Benefits include gaining international experience, improving language skills, developing intercultural competence, boosting your CV, and building a global network of friends and professional contacts. It's a unique opportunity for personal and academic growth.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Erasmus Map. All rights reserved.</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                question.addEventListener('click', () => {
+                    const answer = item.querySelector('.faq-answer');
+                    const icon = item.querySelector('.faq-icon');
+                    const isVisible = answer.style.maxHeight && answer.style.maxHeight !== '0px';
+
+                    // Close all other items
+                    faqItems.forEach(otherItem => {
+                        if (otherItem !== item) {
+                            otherItem.querySelector('.faq-answer').style.maxHeight = '0px';
+                            otherItem.querySelector('.faq-icon').textContent = '+';
+                            otherItem.classList.remove('active');
+                        }
+                    });
+
+                    // Toggle current item
+                    if (isVisible) {
+                        answer.style.maxHeight = '0px';
+                        icon.textContent = '+';
+                        item.classList.remove('active');
+                    } else {
+                        answer.style.maxHeight = answer.scrollHeight + 'px';
+                        icon.textContent = '−';
+                        item.classList.add('active');
+                    }
+                });
+            });
+            // Initialize AOS (Animate On Scroll)
+            AOS.init({
+                duration: 600, // Faster animation: 600ms
+                easing: 'ease-in-out',
+                once: true
+            });
+
+            // Initialize Particles.js
+            particlesJS('particles-js', {
+                "particles": {
+                    "number": {
+                        "value": 80,
+                        "density": {
+                            "enable": true,
+                            "value_area": 800
+                        }
+                    },
+                    "color": {
+                        "value": "#ffffff"
+                    },
+                    "shape": {
+                        "type": "circle",
+                        "stroke": {
+                            "width": 0,
+                            "color": "#000000"
+                        },
+                        "polygon": {
+                            "nb_sides": 5
+                        }
+                    },
+                    "opacity": {
+                        "value": 0.5,
+                        "random": false,
+                        "anim": {
+                            "enable": false,
+                            "speed": 1,
+                            "opacity_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "size": {
+                        "value": 3,
+                        "random": true,
+                        "anim": {
+                            "enable": false,
+                            "speed": 40,
+                            "size_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "line_linked": {
+                        "enable": true,
+                        "distance": 150,
+                        "color": "#ffffff",
+                        "opacity": 0.4,
+                        "width": 1
+                    },
+                    "move": {
+                        "enable": true,
+                        "speed": 6,
+                        "direction": "none",
+                        "random": false,
+                        "straight": false,
+                        "out_mode": "out",
+                        "bounce": false,
+                        "attract": {
+                            "enable": false,
+                            "rotateX": 600,
+                            "rotateY": 1200
+                        }
+                    }
+                },
+                "interactivity": {
+                    "detect_on": "canvas",
+                    "events": {
+                        "onhover": {
+                            "enable": true,
+                            "mode": "repulse"
+                        },
+                        "onclick": {
+                            "enable": true,
+                            "mode": "push"
+                        },
+                        "resize": true
+                    },
+                    "modes": {
+                        "grab": {
+                            "distance": 400,
+                            "line_linked": {
+                                "opacity": 1
+                            }
+                        },
+                        "bubble": {
+                            "distance": 400,
+                            "size": 40,
+                            "duration": 2,
+                            "opacity": 8,
+                            "speed": 3
+                        },
+                        "repulse": {
+                            "distance": 200,
+                            "duration": 0.4
+                        },
+                        "push": {
+                            "particles_nb": 4
+                        },
+                        "remove": {
+                            "particles_nb": 2
+                        }
+                    }
+                },
+                "retina_detect": true
+            });
+        });
+    </script>
+</body>
+</html>
