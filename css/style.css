@@ -501,6 +501,8 @@ footer {
     nav ul {
         margin-top: 15px;
         padding: 0;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     nav ul li {
