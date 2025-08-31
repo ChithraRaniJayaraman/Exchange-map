@@ -507,7 +507,7 @@ footer {
         margin: 0 10px;
     }
     
-    main:not(.map-page-main) {
+    .home-page main {
         padding-top: 135px; /* Adjust for taller header on mobile */
     }
 
