@@ -1,4 +1,8 @@
 /* General styles */
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -6,6 +10,8 @@ body {
     color: #fff;
     line-height: 1.6;
     overflow-x: hidden;
+    width: 100%;
+    max-width: 100vw;
 }
 
 /* Header and Navigation */
@@ -14,10 +20,11 @@ header {
     backdrop-filter: blur(20px);
     padding: 15px 5%; /* Use percentage for padding */
     box-shadow: 0 2px 20px rgba(0,0,0,0.2);
-    position: fixed; /* Changed from sticky */
+    position: sticky; /* Changed from sticky */
     top: 0;
     left: 0;
     width: 100%;
+    max-width: 100vw;
     z-index: 1000;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     box-sizing: border-box; /* Add this line */
@@ -147,10 +154,13 @@ nav ul li a:hover, nav ul li a.active {
 main {
     padding: 0;
     background-color: #1a1a2e; /* Fallback background */
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
 }
 
 section {
-    padding: 40px 40px;
+    padding: 40px 5%; /* Use percentage for side padding */
     position: relative;
     color: #e0e0e0; /* Light text color for sections */
     border-bottom: 1px solid #0f192a;
@@ -158,6 +168,9 @@ section {
     background-position: center center;
     background-attachment: fixed;
     z-index: 0;
+    width: 100%;
+    max-width: 100vw;
+    box-sizing: border-box;
 }
 
 section::before {
@@ -489,13 +502,22 @@ footer {
 }
 
 @media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+        width: 100%;
+        max-width: 100vw;
+    }
+    
     header {
         padding: 15px 20px;
+        width: 100%;
+        max-width: 100vw;
     }
 
     nav {
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
 
     nav ul {
@@ -503,6 +525,7 @@ footer {
         padding: 0;
         flex-wrap: wrap;
         justify-content: center;
+        width: 100%;
     }
 
     nav ul li {
@@ -511,10 +534,14 @@ footer {
     
     .home-page main {
         padding-top: 135px; /* Adjust for taller header on mobile */
+        width: 100%;
+        max-width: 100vw;
     }
 
     .map-page main {
         padding-top: 135px; /* Adjust for taller header on mobile */
+        width: 100%;
+        max-width: 100vw;
     }
     #hero h1 {
         font-size: 2.5em;
@@ -531,6 +558,8 @@ footer {
     
     section {
         padding: 60px 20px;
+        width: 100%;
+        max-width: 100vw;
     }
     
     section h2, section h3 {
