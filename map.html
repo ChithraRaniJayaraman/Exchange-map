@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Erasmus Interactive Map</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+</head>
+<body class="map-page">
+    <header>
+        <nav>
+            <div class="logo">ErasumusMap</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="map.html" class="active">Maps</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="app">
+            <div id="map" aria-label="World map for Erasmus destinations"></div>
+            <aside id="panel" aria-live="polite">
+                <div class="panel-header">
+                    <h1>Erasmus Destinations</h1>
+                </div>
+                <div class="panel-content">
+                    <div class="card">
+                        <h2>Click a country</h2>
+                        <p>Select India, Belgium, China, Canada, Australia, Croatia, or France to see Erasmus info.</p>
+                        <p class="muted">Tip: In India, click the <b>Kolkata</b> marker for IIM Calcutta.</p>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
