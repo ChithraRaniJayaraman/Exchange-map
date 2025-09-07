@@ -51,15 +51,38 @@ ${p.direct}<br/><b>Indirect:</b> ${p.indirect}</li>`).join('')}</ul>
 zoomToCountry(code);
  }
  function renderCityCard(code, city){
- panelContent.innerHTML = `
- <div class="card">
- <h2>${city.cardTitle || city.name}</h2>
+ let cardContent = `<div class="card"><h2>${city.cardTitle || city.name}</h2>`;
  
-<ul>${(city.cardBullets||[]).map(b=>`<li>${b}</li>`).join('')}</ul>
- <button id="backBtn">Back to ${CONTENT[code].title.split('—')[0].trim()}</button>
- </div>`;
- document.getElementById('backBtn').onclick = ()=> 
-renderCountryCard(code);
+ // If city has institutions array, display each institution
+ if (city.institutions && city.institutions.length > 0) {
+   city.institutions.forEach(inst => {
+     cardContent += `
+       <div class="institution">
+         <h3><a href="${inst.website}" target="_blank">${inst.name}</a> (${inst.type})</h3>
+         <div class="institution-details">
+           <p><strong>Language & Vibe:</strong> ${inst.cultural.language_and_vibe}</p>
+           <p><strong>Clubs & Life:</strong> ${inst.cultural.clubs_and_life}</p>
+           <p><strong>Hostel Culture:</strong> ${inst.cultural.hostel_culture}</p>
+           ${inst.cultural.festivals.length > 0 ? `<p><strong>Festivals:</strong> ${inst.cultural.festivals.map(f => `${f.name} (${f.month})`).join(', ')}</p>` : ''}
+           <div class="tips">
+             <strong>Tips:</strong>
+             <ul>${inst.tips.map(tip => `<li>${tip}</li>`).join('')}</ul>
+           </div>
+           <div class="helpful-links">
+             <strong>Helpful Links:</strong>
+             ${Object.entries(inst.helpful_links).map(([name, url]) => `<a href="${url}" target="_blank">${name}</a>`).join(' | ')}
+           </div>
+         </div>
+       </div>`;
+   });
+ } else {
+   // Fallback to old format
+   cardContent += `<ul>${(city.cardBullets||[]).map(b=>`<li>${b}</li>`).join('')}</ul>`;
+ }
+ 
+ cardContent += `<button id="backBtn">Back to ${CONTENT[code].title.split('—')[0].trim()}</button></div>`;
+ panelContent.innerHTML = cardContent;
+ document.getElementById('backBtn').onclick = ()=> renderCountryCard(code);
  }
  // Draw world polygons; click to open the country card
  const layer = L.geoJSON(WORLD, {

@@ -14,6 +14,36 @@
                 "lat": 22.5726,
                 "lon": 88.3639,
                 "cardTitle": "Kolkata — IIM Calcutta (IIMC)",
+                "institutions": [
+                    {
+                        "slug": "iim-calcutta",
+                        "name": "IIM Calcutta",
+                        "type": "IIM (Management)",
+                        "website": "https://www.iimcal.ac.in/",
+                        "helpful_links": {
+                            "International Office": "https://www.iimcal.ac.in/international-relations",
+                            "Student Affairs": "https://www.iimcal.ac.in/student-life"
+                        },
+                        "cultural": {
+                            "language_and_vibe": "English instruction; Bengali culture prevalent in the city. Formal academic atmosphere with strong case-based learning methodology.",
+                            "festivals": [
+                                {"name": "Carpe Diem", "month": "Jan/Feb", "type": "Annual business festival"}
+                            ],
+                            "clubs_and_life": "Active student clubs in consulting, finance, and cultural activities; strong alumni network and peer mentorship programs.",
+                            "hostel_culture": "Residential campus with shared rooms; strong peer networks formed through mess dining and evening discussions."
+                        },
+                        "personnel": {
+                            "international_office": {"name": "International Relations Office", "url": "https://www.iimcal.ac.in/international-relations"},
+                            "student_affairs": {"name": "Student Affairs", "url": "https://www.iimcal.ac.in/student-life"}
+                        },
+                        "tips": [
+                            "Arrive early for orientation and buddy assignment.",
+                            "Metro and bus connectivity is excellent for city exploration.",
+                            "Relative grading system - participation in class discussions is crucial.",
+                            "Explore local Bengali cuisine and cultural heritage sites."
+                        ]
+                    }
+                ],
                 "cardBullets": [
                     "Campus: residential; strong peer networks; case-based learning",
                     "Courses/credits: management focus (confirm ECTS with FEB)",
@@ -21,17 +51,76 @@
                     "Student life: hostels, mess dining, fests; metro/bus access",
                     "First steps: arrive early; orientation + buddy"
                 ]
+            },
+            {
+                "name": "Bangalore",
+                "lat": 12.9716,
+                "lon": 77.5946,
+                "cardTitle": "Bangalore — IIM Bangalore & IIIT Bangalore",
+                "institutions": [
+                    {
+                        "slug": "iim-bangalore",
+                        "name": "IIM Bangalore",
+                        "type": "IIM (Management)",
+                        "website": "https://www.iimb.ac.in/",
+                        "helpful_links": {
+                            "International Office": "https://www.iimb.ac.in/international-relations",
+                            "Unmaad (Cultural Festival)": "https://www.unmaad.com/"
+                        },
+                        "cultural": {
+                            "language_and_vibe": "English instruction; Kannada/Hindi widely heard in the city. MBA cohort with strong club culture and case-based learning.",
+                            "festivals": [
+                                {"name": "Unmaad", "month": "Jan/Feb", "type": "Campus cultural festival"}
+                            ],
+                            "clubs_and_life": "Student clubs across consulting, entrepreneurship, music, sports; Exchange Committee runs welcome & cultural mixers.",
+                            "hostel_culture": "Single rooms on campus (subject to term availability); lively peer network and weekend city trips."
+                        },
+                        "personnel": {
+                            "international_office": {"name": "Office of International Affairs", "url": "https://www.iimb.ac.in/international-relations"},
+                            "clubs": {"name": "Student Clubs & Committees", "url": "https://www.iimb.ac.in/student-activities"}
+                        },
+                        "tips": [
+                            "Bengaluru weather is mild—carry a light jacket for evenings.",
+                            "Autos and app cabs are easy; metro connects key areas.",
+                            "Cafés and music venues around Koramangala/Indiranagar are student-friendly."
+                        ]
+                    },
+                    {
+                        "slug": "iiit-bangalore",
+                        "name": "IIIT Bangalore",
+                        "type": "IIIT (Tech)",
+                        "website": "https://www.iiitb.ac.in/",
+                        "helpful_links": {
+                            "International & Academics": "https://www.iiitb.ac.in/academics",
+                            "Student Life": "https://www.iiitb.ac.in/student-life"
+                        },
+                        "cultural": {
+                            "language_and_vibe": "English on campus; collaborative tech culture with hackathons and meetups; Bengaluru is India’s ‘Silicon Valley’.",
+                            "festivals": [
+                                {"name": "Tech/cultural clubs events", "month": "Year-round", "type": "Student-run"}
+                            ],
+                            "clubs_and_life": "Coding, research and maker communities; access to city-wide tech meetups and conferences.",
+                            "hostel_culture": "Modern hostels; compact campus; strong peer networks for projects and startups."
+                        },
+                        "personnel": {
+                            "academics": {"name": "Academics Office", "url": "https://www.iiitb.ac.in/academics"},
+                            "student_affairs": {"name": "Student Affairs", "url": "https://www.iiitb.ac.in/student-life"}
+                        },
+                        "tips": [
+                            "Tap into city tech meetups (e.g., Python, data, product design).",
+                            "Weather is pleasant; sudden showers are common.",
+                            "Try filter coffee & local Udupi eateries around Electronic City."
+                        ]
+                    }
+                ],
+                "cardBullets": [
+                    "Campus: Modern, tech-driven; lush green spaces; cosmopolitan vibe.",
+                    "Courses/credits: Strong in engineering, IT, and management.",
+                    "Student life: Cafés, music, and startup culture; pleasant weather year-round.",
+                    "First steps: Use metro/buses for easy city travel; try local cuisine like dosa and filter coffee."
+                ]
             }
-        ],
-        "extras": {
-            "directIndirect": [
-                {
-                    "direct": "This section isn’t clear. Please rewrite the analysis.",
-                    "indirect": "Maybe we can refine this part a bit?",
-                    "note": "Use in workshop to illustrate feedback styles."
-                }
-            ]
-        }
+        ]
     },
     "BE": {
         "title": "Belgium — Home baseline",
@@ -48,6 +137,64 @@
         "lat": 50.8503,
         "lon": 4.3517,
         "cardTitle": "Brussels — The Heart of Europe",
+        "institutions": [
+            {
+                "slug": "ku-leuven-brussels",
+                "name": "KU Leuven Brussels Campus",
+                "type": "University",
+                "website": "https://www.kuleuven.be/brussels/",
+                "helpful_links": {
+                    "International Office": "https://www.kuleuven.be/english/international",
+                    "Student Life": "https://www.kuleuven.be/english/studentlife"
+                },
+                "cultural": {
+                    "language_and_vibe": "Dutch/French/English instruction; multicultural environment with European institutions nearby. Academic yet internationally focused atmosphere.",
+                    "festivals": [
+                        {"name": "Student Welcome Week", "month": "September", "type": "Orientation events"}
+                    ],
+                    "clubs_and_life": "International student associations, EU policy clubs, and cultural organizations reflecting Brussels' diverse population.",
+                    "hostel_culture": "Mix of student housing and private accommodation; active international student community with regular cultural exchanges."
+                },
+                "personnel": {
+                    "international_office": {"name": "International Relations Office", "url": "https://www.kuleuven.be/english/international"},
+                    "student_services": {"name": "Student Services", "url": "https://www.kuleuven.be/english/studentlife"}
+                },
+                "tips": [
+                    "Explore the Grand-Place and don't forget to try the waffles and fries.",
+                    "Take advantage of proximity to EU institutions for internship opportunities.",
+                    "Public transport is excellent - get a STIB/MIVB pass.",
+                    "Brussels is trilingual - learn basic French/Dutch phrases."
+                ]
+            },
+            {
+                "slug": "ulb-brussels",
+                "name": "Université Libre de Bruxelles (ULB)",
+                "type": "University",
+                "website": "https://www.ulb.be/",
+                "helpful_links": {
+                    "International Relations": "https://www.ulb.be/en/international",
+                    "Campus Life": "https://www.ulb.be/en/campus-life"
+                },
+                "cultural": {
+                    "language_and_vibe": "French instruction with some English programs; liberal and research-focused academic culture with strong international perspective.",
+                    "festivals": [
+                        {"name": "Festival de l'Europe", "month": "May", "type": "European cultural celebration"}
+                    ],
+                    "clubs_and_life": "Active student life with numerous cultural, academic and political organizations; strong debate culture and social engagement.",
+                    "hostel_culture": "Urban campus integrated with city life; students often live in shared apartments throughout Brussels."
+                },
+                "personnel": {
+                    "international_office": {"name": "International Relations Office", "url": "https://www.ulb.be/en/international"},
+                    "student_affairs": {"name": "Student Affairs", "url": "https://www.ulb.be/en/campus-life"}
+                },
+                "tips": [
+                    "Join student organizations early to build networks.",
+                    "Take advantage of the vibrant nightlife and cultural events.",
+                    "Explore different neighborhoods - each has its own character.",
+                    "Use the extensive public library system for studying."
+                ]
+            }
+        ],
         "cardBullets": [
           "Campus: Home to multiple universities like KU Leuven Brussels Campus and ULB.",
           "Courses/credits: Strong focus on international relations, politics, and business.",
@@ -72,6 +219,36 @@
                 "lat": 39.9042,
                 "lon": 116.4074,
                 "cardTitle": "Beijing — Peking University",
+                "institutions": [
+                    {
+                        "slug": "peking-university",
+                        "name": "Peking University",
+                        "type": "University",
+                        "website": "https://english.pku.edu.cn/",
+                        "helpful_links": {
+                            "International Students": "https://www.sis.pku.edu.cn/",
+                            "Campus Life": "https://english.pku.edu.cn/campuslife/"
+                        },
+                        "cultural": {
+                            "language_and_vibe": "Mandarin and English instruction; prestigious academic environment with rich historical traditions. Formal respect for professors and academic hierarchy.",
+                            "festivals": [
+                                {"name": "PKU May Fourth Festival", "month": "May", "type": "Cultural and academic celebration"}
+                            ],
+                            "clubs_and_life": "Vibrant international student community with cultural clubs, academic societies, and sports teams. Strong emphasis on academic excellence.",
+                            "hostel_culture": "Traditional campus dormitories with shared facilities; tight-knit international student community with regular cultural exchange activities."
+                        },
+                        "personnel": {
+                            "international_office": {"name": "School of International Studies", "url": "https://www.sis.pku.edu.cn/"},
+                            "student_affairs": {"name": "Student Affairs", "url": "https://english.pku.edu.cn/campuslife/"}
+                        },
+                        "tips": [
+                            "Get a VPN before arriving to access international websites.",
+                            "Learn basic Mandarin phrases for daily interactions.",
+                            "Explore the historic campus known as 'Yan Yuan' (the garden of Yan).",
+                            "Use WeChat Pay and Alipay for most transactions."
+                        ]
+                    }
+                ],
                 "cardBullets": [
                     "Campus: Historic campus known as 'Yan Yuan' (the garden of Yan).",
                     "Courses/credits: Wide range of subjects, strong in humanities and sciences.",
@@ -84,6 +261,36 @@
                 "lat": 31.2304,
                 "lon": 121.4737,
                 "cardTitle": "Shanghai — Fudan University",
+                "institutions": [
+                    {
+                        "slug": "fudan-university",
+                        "name": "Fudan University",
+                        "type": "University",
+                        "website": "https://www.fudan.edu.cn/en/",
+                        "helpful_links": {
+                            "International Students": "https://iso.fudan.edu.cn/",
+                            "Campus Services": "https://www.fudan.edu.cn/en/campuslife/"
+                        },
+                        "cultural": {
+                            "language_and_vibe": "Mandarin and English instruction; cosmopolitan atmosphere reflecting Shanghai's international character. Business-focused and entrepreneurial mindset.",
+                            "festivals": [
+                                {"name": "International Culture Festival", "month": "November", "type": "Multicultural celebration"}
+                            ],
+                            "clubs_and_life": "Modern student life with mix of traditional and contemporary culture; strong business and entrepreneurship clubs; access to Shanghai's vibrant city life.",
+                            "hostel_culture": "Modern dormitories in a bustling metropolis setting; diverse international community with regular networking events and cultural activities."
+                        },
+                        "personnel": {
+                            "international_office": {"name": "International Students Office", "url": "https://iso.fudan.edu.cn/"},
+                            "student_services": {"name": "Student Services", "url": "https://www.fudan.edu.cn/en/campuslife/"}
+                        },
+                        "tips": [
+                            "Learn some basic Mandarin phrases to help with daily life.",
+                            "Explore the mix of modern and traditional culture throughout the city.",
+                            "Take advantage of Shanghai's extensive metro system.",
+                            "Network with local business professionals and startups."
+                        ]
+                    }
+                ],
                 "cardBullets": [
                     "Campus: Located in a bustling metropolis, offering a dynamic city experience.",
                     "Courses/credits: Strong in business, medicine, and international relations.",
@@ -108,6 +315,36 @@
                 "lat": 43.6532,
                 "lon": -79.3832,
                 "cardTitle": "Toronto — University of Toronto",
+                "institutions": [
+                    {
+                        "slug": "university-of-toronto",
+                        "name": "University of Toronto",
+                        "type": "University",
+                        "website": "https://www.utoronto.ca/",
+                        "helpful_links": {
+                            "International Students": "https://www.utoronto.ca/international",
+                            "Student Life": "https://studentlife.utoronto.ca/"
+                        },
+                        "cultural": {
+                            "language_and_vibe": "English instruction; highly multicultural and research-intensive environment. Collaborative and diverse academic culture with global perspective.",
+                            "festivals": [
+                                {"name": "International Education Week", "month": "November", "type": "Cultural exchange events"}
+                            ],
+                            "clubs_and_life": "Extensive student organizations, cultural clubs representing many nationalities, strong arts and food scene access in downtown Toronto.",
+                            "hostel_culture": "Mix of on-campus residences and off-campus housing; diverse student body creates rich cultural exchange opportunities."
+                        },
+                        "personnel": {
+                            "international_office": {"name": "Centre for International Experience", "url": "https://www.utoronto.ca/international"},
+                            "student_affairs": {"name": "Student Life", "url": "https://studentlife.utoronto.ca/"}
+                        },
+                        "tips": [
+                            "Get a PRESTO card for public transit.",
+                            "Explore Toronto's diverse neighborhoods and food scene.",
+                            "Take advantage of the vast array of courses available.",
+                            "Prepare for cold winters - invest in proper winter clothing."
+                        ]
+                    }
+                ],
                 "cardBullets": [
                     "Campus: Downtown campus integrated with the city.",
                     "Courses/credits: Top-ranked university with a vast array of courses.",
@@ -120,6 +357,37 @@
                 "lat": 49.2827,
                 "lon": -123.1207,
                 "cardTitle": "Vancouver — University of British Columbia (UBC)",
+                "institutions": [
+                    {
+                        "slug": "ubc-vancouver",
+                        "name": "University of British Columbia",
+                        "type": "University",
+                        "website": "https://www.ubc.ca/",
+                        "helpful_links": {
+                            "International Students": "https://students.ubc.ca/international-student-guide",
+                            "Campus Life": "https://students.ubc.ca/campus-community"
+                        },
+                        "cultural": {
+                            "language_and_vibe": "English instruction; outdoor-focused and environmentally conscious culture. Research-intensive with strong emphasis on sustainability and innovation.",
+                            "festivals": [
+                                {"name": "Block Party", "month": "September", "type": "Welcome week celebration"},
+                                {"name": "Storm the Wall", "month": "March", "type": "Campus relay race tradition"}
+                            ],
+                            "clubs_and_life": "Outdoor recreation clubs, environmental groups, and cultural organizations; strong connection to nature with easy access to mountains and ocean.",
+                            "hostel_culture": "Beautiful campus with ocean and mountain views; active outdoor lifestyle with hiking, skiing, and water sports communities."
+                        },
+                        "personnel": {
+                            "international_office": {"name": "International Student Development", "url": "https://students.ubc.ca/international-student-guide"},
+                            "student_services": {"name": "Student Services", "url": "https://students.ubc.ca/campus-community"}
+                        },
+                        "tips": [
+                            "Pack for rainy weather, but enjoy the beautiful nature.",
+                            "Take advantage of outdoor activities - hiking, skiing, kayaking.",
+                            "Explore Vancouver's diverse neighborhoods and food scene.",
+                            "Get a Compass Card for public transit in Vancouver."
+                        ]
+                    }
+                ],
                 "cardBullets": [
                     "Campus: Stunning campus with ocean and mountain views.",
                     "Courses/credits: Known for research and sustainability programs.",
@@ -144,6 +412,37 @@
                 "lat": -33.8688,
                 "lon": 151.2093,
                 "cardTitle": "Sydney — University of Sydney",
+                "institutions": [
+                    {
+                        "slug": "university-of-sydney",
+                        "name": "University of Sydney",
+                        "type": "University",
+                        "website": "https://www.sydney.edu.au/",
+                        "helpful_links": {
+                            "International Students": "https://www.sydney.edu.au/students/international-students.html",
+                            "Campus Life": "https://www.sydney.edu.au/campus-life.html"
+                        },
+                        "cultural": {
+                            "language_and_vibe": "English instruction; relaxed and informal atmosphere with laid-back Australian lifestyle. Strong coffee culture and beach-oriented social life.",
+                            "festivals": [
+                                {"name": "Orientation Week", "month": "February/July", "type": "Welcome activities"},
+                                {"name": "Sydney Festival", "month": "January", "type": "City-wide arts festival"}
+                            ],
+                            "clubs_and_life": "Extensive student societies, beach and surf clubs, cultural organizations; access to Sydney's vibrant nightlife, beaches, and cultural scene.",
+                            "hostel_culture": "Mix of on-campus accommodation and shared housing; outdoor lifestyle with easy access to beaches and harbor activities."
+                        },
+                        "personnel": {
+                            "international_office": {"name": "International Student Services", "url": "https://www.sydney.edu.au/students/international-students.html"},
+                            "student_services": {"name": "Student Services", "url": "https://www.sydney.edu.au/campus-life.html"}
+                        },
+                        "tips": [
+                            "Get an Opal card for easy travel on public transport.",
+                            "Explore Sydney's famous beaches and harbor.",
+                            "Take advantage of the neo-gothic sandstone campus architecture.",
+                            "Be prepared for higher living costs, especially in the city center."
+                        ]
+                    }
+                ],
                 "cardBullets": [
                     "Campus: Famous for its neo-gothic sandstone buildings.",
                     "Courses/credits: Comprehensive university with a strong international reputation.",
@@ -156,6 +455,37 @@
                 "lat": -37.8136,
                 "lon": 144.9631,
                 "cardTitle": "Melbourne — University of Melbourne",
+                "institutions": [
+                    {
+                        "slug": "university-of-melbourne",
+                        "name": "University of Melbourne",
+                        "type": "University",
+                        "website": "https://www.unimelb.edu.au/",
+                        "helpful_links": {
+                            "International Students": "https://students.unimelb.edu.au/international-students",
+                            "Student Life": "https://students.unimelb.edu.au/student-life"
+                        },
+                        "cultural": {
+                            "language_and_vibe": "English instruction; arts-focused and culturally rich environment with strong emphasis on creativity and academic excellence. Coffee culture is central to social life.",
+                            "festivals": [
+                                {"name": "Orientation Week", "month": "February/July", "type": "Welcome activities"},
+                                {"name": "Melbourne International Arts Festival", "month": "October", "type": "City-wide cultural celebration"}
+                            ],
+                            "clubs_and_life": "Diverse student societies, arts and music clubs, cultural organizations; access to Melbourne's famous laneway culture, street art, and live music scene.",
+                            "hostel_culture": "Historic and modern campus near city center; active cultural scene with easy exploration of unique neighborhoods by tram."
+                        },
+                        "personnel": {
+                            "international_office": {"name": "International Student Services", "url": "https://students.unimelb.edu.au/international-students"},
+                            "student_services": {"name": "Student Services", "url": "https://students.unimelb.edu.au/student-life"}
+                        },
+                        "tips": [
+                            "Explore the city's unique neighborhoods by tram.",
+                            "Discover laneway cafes, street art, and live music venues.",
+                            "Take advantage of Melbourne's reputation as Australia's cultural capital.",
+                            "Get a Myki card for public transport throughout Melbourne."
+                        ]
+                    }
+                ],
                 "cardBullets": [
                     "Campus: A mix of historic and modern architecture, located near the city center.",
                     "Courses/credits: Particularly strong in arts, humanities, and medicine.",
@@ -180,6 +510,37 @@
                 "lat": 45.8150,
                 "lon": 15.9819,
                 "cardTitle": "Zagreb — University of Zagreb",
+                "institutions": [
+                    {
+                        "slug": "university-of-zagreb",
+                        "name": "University of Zagreb",
+                        "type": "University",
+                        "website": "https://www.unizg.hr/homepage/",
+                        "helpful_links": {
+                            "International Office": "https://www.unizg.hr/international-cooperation/",
+                            "Student Services": "https://www.unizg.hr/students/"
+                        },
+                        "cultural": {
+                            "language_and_vibe": "Croatian with English-taught programs available; traditional European academic culture with growing international focus. Cafe culture is central to social interactions.",
+                            "festivals": [
+                                {"name": "Student Day", "month": "November", "type": "Annual student celebration"},
+                                {"name": "Zagreb Film Festival", "month": "October/November", "type": "International film festival"}
+                            ],
+                            "clubs_and_life": "Active student organizations, cultural societies, and sports clubs; rich history and vibrant downtown with parks, museums, and markets.",
+                            "hostel_culture": "Spread throughout the city rather than a single campus; students gather in city center cafes and cultural venues for socializing."
+                        },
+                        "personnel": {
+                            "international_office": {"name": "International Cooperation Office", "url": "https://www.unizg.hr/international-cooperation/"},
+                            "student_services": {"name": "Student Services", "url": "https://www.unizg.hr/students/"}
+                        },
+                        "tips": [
+                            "Enjoy the local markets and the vibrant downtown area.",
+                            "Learn basic Croatian phrases for daily interactions.",
+                            "Explore Zagreb's rich history through museums and architecture.",
+                            "Take advantage of affordable living costs compared to Western Europe."
+                        ]
+                    }
+                ],
                 "cardBullets": [
                     "Campus: Spread throughout the city, not a single enclosed campus.",
                     "Courses/credits: The oldest and largest university in South-Eastern Europe.",
@@ -192,6 +553,37 @@
                 "lat": 43.5081,
                 "lon": 16.4402,
                 "cardTitle": "Split — University of Split",
+                "institutions": [
+                    {
+                        "slug": "university-of-split",
+                        "name": "University of Split",
+                        "type": "University",
+                        "website": "https://www.unist.hr/",
+                        "helpful_links": {
+                            "International Office": "https://www.unist.hr/international",
+                            "Student Life": "https://www.unist.hr/students"
+                        },
+                        "cultural": {
+                            "language_and_vibe": "Croatian with English programs available; coastal Mediterranean lifestyle with relaxed academic atmosphere. Strong connection to maritime heritage and island culture.",
+                            "festivals": [
+                                {"name": "Split Summer Festival", "month": "July/August", "type": "Cultural and arts festival"},
+                                {"name": "Ultra Europe", "month": "July", "type": "Electronic music festival"}
+                            ],
+                            "clubs_and_life": "Water sports clubs, cultural organizations, and student societies; easy access to islands and beaches; strong connection to Roman history and architecture.",
+                            "hostel_culture": "Modern facilities with some offering stunning sea views; students enjoy outdoor lifestyle with sailing, swimming, and island hopping activities."
+                        },
+                        "personnel": {
+                            "international_office": {"name": "International Relations Office", "url": "https://www.unist.hr/international"},
+                            "student_services": {"name": "Student Services", "url": "https://www.unist.hr/students"}
+                        },
+                        "tips": [
+                            "Explore Diocletian's Palace and enjoy the Adriatic coastline.",
+                            "Take advantage of ferry connections to nearby islands.",
+                            "Learn about Roman history integrated into the modern city.",
+                            "Enjoy the Mediterranean climate and outdoor lifestyle."
+                        ]
+                    }
+                ],
                 "cardBullets": [
                     "Campus: Modern facilities, with some faculties offering stunning sea views.",
                     "Courses/credits: Strong in marine sciences, engineering, and humanities.",
@@ -216,6 +608,37 @@
                 "lat": 48.8566,
                 "lon": 2.3522,
                 "cardTitle": "Paris — Sorbonne University",
+                "institutions": [
+                    {
+                        "slug": "sorbonne-university",
+                        "name": "Sorbonne University",
+                        "type": "University",
+                        "website": "https://www.sorbonne-universite.fr/en",
+                        "helpful_links": {
+                            "International Students": "https://www.sorbonne-universite.fr/en/international",
+                            "Campus Life": "https://www.sorbonne-universite.fr/en/campus-life"
+                        },
+                        "cultural": {
+                            "language_and_vibe": "French with some English programs; prestigious and traditional academic environment with emphasis on intellectual discourse. Hierarchical structure with formal professor-student relationships.",
+                            "festivals": [
+                                {"name": "Nuit Blanche", "month": "October", "type": "City-wide cultural night"},
+                                {"name": "Fête de la Musique", "month": "June", "type": "Music festival throughout the city"}
+                            ],
+                            "clubs_and_life": "Rich cultural and academic societies; access to world-class museums, galleries, and cultural events; vibrant café culture and intellectual discussions.",
+                            "hostel_culture": "Historic campus in Latin Quarter; students often live in shared apartments throughout Paris; strong café study culture and intellectual networking."
+                        },
+                        "personnel": {
+                            "international_office": {"name": "International Relations", "url": "https://www.sorbonne-universite.fr/en/international"},
+                            "student_services": {"name": "Student Services", "url": "https://www.sorbonne-universite.fr/en/campus-life"}
+                        },
+                        "tips": [
+                            "Get a Navigo pass for the metro and be prepared for a fast-paced life.",
+                            "Learn French basics to fully engage with academic and social life.",
+                            "Take advantage of numerous museums and cultural institutions.",
+                            "Navigate French bureaucracy with patience and proper documentation."
+                        ]
+                    }
+                ],
                 "cardBullets": [
                     "Campus: Historic and prestigious, located in the heart of the Latin Quarter.",
                     "Courses/credits: World-renowned for arts, humanities, and sciences.",
@@ -228,6 +651,37 @@
                 "lat": 45.7640,
                 "lon": 4.8357,
                 "cardTitle": "Lyon — University of Lyon",
+                "institutions": [
+                    {
+                        "slug": "university-of-lyon",
+                        "name": "University of Lyon",
+                        "type": "University",
+                        "website": "https://www.universite-lyon.fr/",
+                        "helpful_links": {
+                            "International Office": "https://www.universite-lyon.fr/international",
+                            "Student Services": "https://www.universite-lyon.fr/student-life"
+                        },
+                        "cultural": {
+                            "language_and_vibe": "French instruction with growing English programs; gastronomic capital with strong focus on culinary arts and social sciences. More relaxed than Paris but maintaining academic rigor.",
+                            "festivals": [
+                                {"name": "Fête des Lumières", "month": "December", "type": "Festival of Lights"},
+                                {"name": "Nuits de Fourvière", "month": "June/July", "type": "Cultural festival in Roman amphitheater"}
+                            ],
+                            "clubs_and_life": "Culinary societies, cultural organizations, and student associations; access to Lyon's renowned restaurant scene and food markets; vibrant yet manageable city atmosphere.",
+                            "hostel_culture": "Multiple university campuses throughout the city; strong student community with food-centered social activities and cultural exchanges."
+                        },
+                        "personnel": {
+                            "international_office": {"name": "International Relations", "url": "https://www.universite-lyon.fr/international"},
+                            "student_services": {"name": "Student Services", "url": "https://www.universite-lyon.fr/student-life"}
+                        },
+                        "tips": [
+                            "Try the local 'bouchons' (traditional restaurants).",
+                            "Explore Lyon's UNESCO World Heritage old town.",
+                            "Take advantage of the excellent public transportation system.",
+                            "Learn about French gastronomy - Lyon is considered France's food capital."
+                        ]
+                    }
+                ],
                 "cardBullets": [
                     "Campus: A major hub for higher education with several distinct universities.",
                     "Courses/credits: Strong in social sciences, technology, and gastronomy.",
