@@ -83,7 +83,8 @@ nav ul li a:hover, nav ul li a.active {
     height: 100vh; /* Full viewport height */
     box-sizing: border-box;
     overflow: hidden;
-    background-image: url('https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2070&auto=format&fit=crop');
+    /* background-image: url('https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2070&auto=format&fit=crop'), */
+    background-image: url('https://research.unimelb.edu.au/__data/assets/image/0006/4264485/varieties/large.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -378,6 +379,138 @@ section > p {
     letter-spacing: 1px;
     margin-top: 5px;
     font-weight: 600;
+}
+
+/* Video Stats Section */
+.video-main-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 60px;
+    align-items: start;
+    max-width: 1400px;
+    margin: 40px auto 0;
+}
+
+.video-content-left h4 {
+    font-size: 2.2em;
+    color: #2c3e50;
+    margin-bottom: 40px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.video-stats-section {
+    padding: 40px 30px;
+    background: #f8f9ff;
+    border-radius: 20px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 100px;
+}
+
+.video-stats-section h4 {
+    font-size: 1.8em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.video-stats-section p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.video-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.stat {
+    text-align: left;
+    padding: 15px 0;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.stat:last-child {
+    border-bottom: none;
+}
+
+/* Additional Videos Grid */
+.additional-videos {
+    margin-top: 80px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.additional-videos h4 {
+    text-align: center;
+    font-size: 2.2em;
+    color: #2c3e50;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.video-testimonial {
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s ease;
+    border: 1px solid #e0e0e0;
+}
+
+.video-testimonial:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+}
+
+.video-thumbnail {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+}
+
+.video-thumbnail iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.video-info {
+    padding: 25px;
+}
+
+.video-info h5 {
+    font-size: 1.3em;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.video-info p {
+    color: #555;
+    line-height: 1.6;
+    margin: 0;
+    font-size: 0.95em;
 }
 
 /* FAQ Section Accordion */
@@ -775,6 +908,68 @@ footer {
     
     .stat-number {
         font-size: 2.2em;
+    }
+    
+    /* Additional video grid mobile styles */
+    .video-main-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .video-stats-section {
+        position: static;
+        order: -1;
+        text-align: center;
+        padding: 30px 20px;
+    }
+    
+    .video-stats-section h4 {
+        text-align: center;
+        font-size: 1.6em;
+    }
+    
+    .video-stats-section p {
+        text-align: center;
+    }
+    
+    .video-stats {
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    
+    .stat {
+        text-align: center;
+        border-bottom: none;
+        border-right: 2px solid #e0e0e0;
+        padding: 10px 15px;
+    }
+    
+    .stat:last-child {
+        border-right: none;
+    }
+    
+    .video-content-left h4 {
+        text-align: center;
+        font-size: 1.8em;
+    }
+    
+    .video-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .additional-videos h4 {
+        font-size: 1.8em;
+    }
+    
+    .video-info {
+        padding: 20px;
+    }
+    
+    .video-info h5 {
+        font-size: 1.2em;
     }
     
     #watch-video {

@@ -119,6 +119,58 @@
                     "Student life: Cafés, music, and startup culture; pleasant weather year-round.",
                     "First steps: Use metro/buses for easy city travel; try local cuisine like dosa and filter coffee."
                 ]
+            },
+            {
+                "name": "Delhi",
+                "lat": 28.6139,
+                "lon": 77.2090,
+                "cardTitle": "Delhi — IIT Delhi",
+                "institutions": [
+                    {
+                        "slug": "iit-delhi",
+                        "name": "IIT Delhi",
+                        "type": "IIT (Technology)",
+                        "website": "https://home.iitd.ac.in/",
+                        "helpful_links": {
+                            "International Programs": "https://international.iitd.ac.in/",
+                            "Student Activities": "https://dosa.iitd.ac.in/",
+                            "Academic Office": "https://academics.iitd.ac.in/"
+                        },
+                        "cultural": {
+                            "language_and_vibe": "English instruction; Hindi widely spoken in Delhi. Rigorous academic environment with strong emphasis on research and innovation. Campus has a rich history dating back to 1961.",
+                            "festivals": [
+                                {"name": "Rendezvous", "month": "October", "type": "Annual cultural festival"},
+                                {"name": "Tryst", "month": "February/March", "type": "Technical festival"},
+                                {"name": "Antardhvani", "month": "November", "type": "Literary festival"}
+                            ],
+                            "clubs_and_life": "Over 100+ student clubs covering technical, cultural, literary, and sports activities. Strong entrepreneurship ecosystem with incubation centers. Active research groups and international collaborations.",
+                            "hostel_culture": "Traditional hostel system with 13 hostels for boys and 2 for girls. Strong inter-hostel competitions, cultural nights, and lifelong friendships. Each hostel has its own mess and cultural identity."
+                        },
+                        "personnel": {
+                            "international_office": {"name": "Office of International Programs", "url": "https://international.iitd.ac.in/"},
+                            "student_affairs": {"name": "Dean of Student Affairs", "url": "https://dosa.iitd.ac.in/"},
+                            "academics": {"name": "Academic Office", "url": "https://academics.iitd.ac.in/"}
+                        },
+                        "tips": [
+                            "Delhi Metro is the best way to travel - campus is on the Pink Line (IIT Delhi station).",
+                            "Winter months (Dec-Feb) can be quite cold and foggy - bring warm clothes.",
+                            "Campus has excellent infrastructure including library, sports complex, and medical center.",
+                            "Explore Delhi's rich history - Red Fort, India Gate, and Humayun's Tomb are nearby.",
+                            "Try street food at Karol Bagh and Connaught Place, but start gradually to adjust to local cuisine.",
+                            "Register for student ID card early for campus facility access.",
+                            "Participate in literary societies and technical clubs for networking.",
+                            "Weekend trips to Agra (Taj Mahal) and nearby hill stations are popular among students."
+                        ]
+                    }
+                ],
+                "cardBullets": [
+                    "Campus: Historic 325-acre campus with modern facilities; IIT Delhi Metro station on campus.",
+                    "Courses/credits: Engineering, technology, and interdisciplinary programs; semester system with grades.",
+                    "Student life: 100+ clubs, annual fests (Rendezvous, Tryst), strong research culture.",
+                    "Assessment: Continuous evaluation with quizzes, assignments, mid-sem and end-sem exams.",
+                    "Accommodation: Traditional hostel system with mess facilities and cultural activities.",
+                    "First steps: Get student ID, register for clubs, explore Delhi's rich cultural heritage."
+                ]
             }
         ]
     },
