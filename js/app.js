@@ -99,7 +99,7 @@ ${p.direct}<br/><b>Indirect:</b> ${p.indirect}</li>`).join('')}</ul>
             const codeA3 = feat.id;
             const code = isoA3toA2[codeA3];
             // enable only the countries we care about
-            const allowed = ['IN', 'BE', 'CN', 'CA', 'AU', 'HR', 'FR'];
+            const allowed = ['IN', 'BE', 'CN', 'CA', 'AU', 'HR', 'FR', 'US'];
             if (!allowed.includes(code)) return;
             lyr.setStyle({ fillColor: '#8aa9ff' });
             lyr.on({
@@ -119,4 +119,5 @@ ${p.direct}<br/><b>Indirect:</b> ${p.indirect}</li>`).join('')}</ul>
     // Initial hint
     // panelContent.innerHTML = `<div class="card"><h2>Click a country</h2><p>Explore Erasmus info for India, Belgium, China, Canada, Australia, Croatia, or France.</p></div>`;
 });
+
 
