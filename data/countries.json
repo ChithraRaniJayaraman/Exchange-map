@@ -998,5 +998,45 @@
                 ]
             }
         ]
+    },"US": {
+  "title": "United States — University of Illinois Urbana–Champaign (UIUC)",
+  "bullets": [
+    "Highly international campus with many activities for exchange students.",
+    "Continuous workload (midterms, group projects) instead of one big exam.",
+    "Dorm life = real ‘American movie’ vibe; apartments offer more privacy and a kitchen.",
+    "Campus-centric life; fewer cozy squares/cultural spots than in Europe.",
+    "Winters are very cold (–10 to –15 °C) — pack proper gear."
+  ],
+  "cities": [
+    {
+      "name": "Urbana–Champaign",
+      "lat": 40.1106,
+      "lon": -88.2073,
+      "cardTitle": "Urbana–Champaign — UIUC",
+      "cardBullets": [
+        "Join a student club early — easiest way to make friends.",
+        "Dining halls = big buffets; apartments = kitchen & privacy.",
+        "Keep documents ready — admin asks for many forms."
+      ],
+      "institutions": [
+        {
+          "slug": "uiuc",
+          "name": "University of Illinois Urbana–Champaign",
+          "type": "University",
+          "website": "https://illinois.edu",
+          "tips": [
+            "Get involved in international/student organizations.",
+            "Bring strong winter clothes — much colder than Western Europe.",
+            "Stay organized with paperwork; follow up quickly."
+          ]
+        }
+      ]
     }
+  ]
+}
+
+    
+    
+    
+
 }
