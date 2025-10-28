@@ -142,31 +142,23 @@ Promise.all([
   }
 
   // ----- Draw world polygons & wire clicks -----
-  const allowed = new Set(['IN','BE','CN','CA','AU','HR','FR','US']);
+  const allowed = ['IN', 'BE', 'CN', 'CA', 'AU', 'HR', 'FR', 'US'];
 
-const layer = L.geoJSON(WORLD, {
-  // Style each feature depending on whether it's allowed
-  style: (feat) => {
-    const code = isoA3toA2[feat.id];
-    if (allowed.has(code)) {
-      // highlighted countries
-      return { color: '#666', weight: 0.8, fillColor: '#8aa9ff', fillOpacity: 0.6 };
+  const layer = L.geoJSON(WORLD, {
+    style: { color: '#888', weight: 0.8, fillColor: '#8aa9ff', fillOpacity: 0.6 },
+    onEachFeature: (feat, lyr) => {
+      const codeA3 = feat.id;
+      const code = isoA3toA2[codeA3];
+      if (!allowed.includes(code)) return;
+
+      lyr.on({
+        mouseover: () => lyr.setStyle({ fillOpacity: 0.8 }),
+        mouseout:  () => lyr.setStyle({ fillOpacity: 0.6 }),
+        click:     () => renderCountryCard(code)
+      });
     }
-    // non-target countries (very faint)
-    return { color: '#ccc', weight: 0.4, fillColor: '#eeeeee', fillOpacity: 0.15 };
-    // If you want them completely unfilled, use fillOpacity: 0 instead.
-  },
+  }).addTo(map);
 
-  onEachFeature: (feat, lyr) => {
-    const code = isoA3toA2[feat.id];
-    if (!allowed.has(code)) return; // no interactivity for others
-    lyr.on({
-      mouseover: () => lyr.setStyle({ fillOpacity: 0.8 }),
-      mouseout:  () => lyr.setStyle({ fillOpacity: 0.6 }),
-      click:     () => renderCountryCard(code)
-    });
-  }
-}).addTo(map);
   function zoomToCountry(code) {
     layer.eachLayer(l => {
       const a3 = l.feature.id;
@@ -180,4 +172,3 @@ const layer = L.geoJSON(WORLD, {
   // panelContent.innerHTML = `<div class="card"><h2>Click a country</h2><p>Select India, Belgium, China, Canada, Australia, Croatia, France, or the USA.</p></div>`;
 }); // <— IMPORTANT: closes the .then wrapper
 // ===== End app.js =====
-
