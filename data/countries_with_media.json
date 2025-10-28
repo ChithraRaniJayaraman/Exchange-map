@@ -9,12 +9,10 @@
       }
     ],
     "universities": [
-  {
-    "name": "Chinese University of Hong Kong, Shenzhen",
-    "url": "https://www.cuhk.edu.cn/en"
+      {
+        "name": "Chinese University of Hong Kong, Shenzhen",
+        "url": "https://www.cuhk.edu.cn/en"
+      }
+    ]
   }
-]
-  }
-}
-
 }
