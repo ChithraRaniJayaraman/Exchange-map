@@ -32,7 +32,7 @@ Promise.all([
     }
   })(),
   fetch('data/world.geo.json').then(r => r.json())
-])
+]).then(([CONTENT, WORLD]) => {
     const panelContent = document.querySelector('.panel-content');
     // Utility to render a country card
     function renderCountryCard(code) {
@@ -139,6 +139,7 @@ ${p.direct}<br/><b>Indirect:</b> ${p.indirect}</li>`).join('')}</ul>
     // Initial hint
     // panelContent.innerHTML = `<div class="card"><h2>Click a country</h2><p>Explore Erasmus info for India, Belgium, China, Canada, Australia, Croatia, or France.</p></div>`;
 });
+
 
 
 
