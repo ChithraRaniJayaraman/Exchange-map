@@ -22,9 +22,17 @@ const isoA3toA2 = {
 
 // Load content + world polygons, then wire up clicks
 Promise.all([
-    fetch('data/countries.json').then(r => r.json()),
-    fetch('data/world.geo.json').then(r => r.json())
-]).then(([CONTENT, WORLD]) => {
+  (async () => {
+    try {
+      const r = await fetch('data/countries_with_media.json');
+      if (!r.ok) throw new Error('no media file yet');
+      return await r.json();
+    } catch (e) {
+      return await fetch('data/countries.json').then(r => r.json());
+    }
+  })(),
+  fetch('data/world.geo.json').then(r => r.json())
+])
     const panelContent = document.querySelector('.panel-content');
     // Utility to render a country card
     function renderCountryCard(code) {
@@ -119,5 +127,6 @@ ${p.direct}<br/><b>Indirect:</b> ${p.indirect}</li>`).join('')}</ul>
     // Initial hint
     // panelContent.innerHTML = `<div class="card"><h2>Click a country</h2><p>Explore Erasmus info for India, Belgium, China, Canada, Australia, Croatia, or France.</p></div>`;
 });
+
 
 
