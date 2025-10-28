@@ -1,10 +1,10 @@
 {"FR":{"title":"France","description":"EM Strasbourg in Strasbourg","videos":[{"title":"Gero about EM Strasbourg in Strasbourg, France","url":"https://www.youtube.com/embed/peRleJUYdjU"}]},"CN":{"title":"China","description":"Chinese University of Hong Kong, Shenzhen","videos":[{"title":"Robine about the Chinese University of Hong Kong in Shenzhen","url":"https://www.youtube.com/embed/1hZpZ0oDn5k"}]}},
-  "CN": {
-    "title": "China",
-    "description": "Chinese University of Hong Kong, Shenzhen",
+ "CA": {
+    "title": "Canada",
+    "description": "Queen's University in Kingston",
     "videos": [{
-      "title": "Robine about the Chinese University of Hong Kong in Shenzhen",
-      "url": "https://www.youtube.com/embed/1hZpZ0oDn5k"
+      "title": "Cedric about the Queen's University in Kingston, Canada",
+      "url": "https://www.youtube.com/embed/bTEAnKSlvrw"
     }]
   }
-}
+} 
