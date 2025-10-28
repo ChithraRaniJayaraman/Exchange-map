@@ -49,7 +49,19 @@ data</h2><p>Coming soon.</p></div>`; return;
  <h3>Direct vs Indirect feedback</h3>
  <ul>${c.extras.directIndirect.map(p => `<li><b>Direct:</b> 
 ${p.direct}<br/><b>Indirect:</b> ${p.indirect}</li>`).join('')}</ul>
- `: ``}
+ `: ``}<!-- ✅ Add video section -->
+    ${c.media ? `
+      <h3>Watch Video</h3>
+      <video controls width="100%">
+        <source src="${c.media}" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    ` : ''}
+
+    <!-- ✅ Add friendly university link -->
+    ${c.university ? `
+      <p><a href="${c.university}" target="_blank">Visit Friendly University</a></p>
+    ` : ''}
  <div id="cityPins"></div>
  <button id="zoomBtn">Zoom to ${code}</button>
  </div>
@@ -127,6 +139,7 @@ ${p.direct}<br/><b>Indirect:</b> ${p.indirect}</li>`).join('')}</ul>
     // Initial hint
     // panelContent.innerHTML = `<div class="card"><h2>Click a country</h2><p>Explore Erasmus info for India, Belgium, China, Canada, Australia, Croatia, or France.</p></div>`;
 });
+
 
 
 
