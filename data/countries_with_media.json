@@ -17,22 +17,3 @@
   }
 }
 
-{
-  "FR": {
-    "title": "France",
-    "description": "EM Strasbourg Business School, Strasbourg",
-    "videos": [
-      {
-        "title": "Gero about the EM Strasbourg in Strasbourg, France - Study abroad with FEB KU Leuven",
-        "url": "https://www.youtube.com/embed/peRleJUYdjU"
-      }
-    ],
-    "universities": [
-      {
-        "name": "EM Strasbourg Business School",
-        "url": "https://www.em-strasbourg.com/en"
-      }
-    ]
-  }
-}
-
